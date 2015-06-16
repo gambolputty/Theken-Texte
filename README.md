@@ -1,5 +1,5 @@
 # Theken-Texte
-Chrome Browser-Erweiterung, die die Untertitel der ARD- und ZDF Mediatheken im Ganzen anzeigt, als Fließtext oder im SRT- und XML-Untertitel-Format bereit stellt. Download im [Chrome Web Store](https://chrome.google.com/webstore/detail/theken-texte/ppkijiiclgdligambidmbnonkphgpolk).
+Chrome Browser-Erweiterung, die die Untertitel der ARD- und ZDF Mediatheken im Ganzen anzeigt, als Fließtext oder im SRT- und XML-Untertitel-Format bereit stellt. Kann im Chrome Web Store [heruntergeladen](https://chrome.google.com/webstore/detail/theken-texte/ppkijiiclgdligambidmbnonkphgpolk) werden.
 
 ## Anwendung
 Um die Erweiterung für den Chrome-Browser zu nutzen und sich die Untertitel-Texte anzeigen zu lassen, geht man wie folgt vor:
