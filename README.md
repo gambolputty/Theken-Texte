@@ -17,6 +17,7 @@ Mit diesem Plugin wird nicht nur das Zitieren von Fernsehinhalten erleichtert. A
 
 ## Hinweise:
 * Nicht immer sind die Untertitel der Mediatheken so gesetzt, dass alle Sprecher im Beitrag ausfindig gemacht werden können. So haben einige Videos z.B. nur einen Sprecher. Manche Untertitel sind fehlerhaft gesetzt, sodass die Sprecher(-Farben) durcheinander sind.
+* Funktioniert vorerst nur auf den Mediatheksseiten, nicht auf den Seiten der einzelnen Sendungen (ggf. das Video auf den Hauptseiten der Mediatheken suchen).
 * Die Umwandlung ins *SRT-Format* ist noch beta. Der Timecode muss für manche Beiträge noch umgewandelt werden.
 * Die Copyright-Hinweise der Sendeanstalten werden ober- oder unterhalb der Texte angezeigt.
 
