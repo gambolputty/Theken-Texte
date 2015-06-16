@@ -4,8 +4,6 @@ Erweiterung für den Chrome-Browser, die die Untertitel-Scripte der ARD- und ZDF
 Mit diesem Plugin wird nicht nur das Zitieren von Fernsehinhalten erleichtert. Auch der Zugriff auf eine Textressource wird vereinfacht, die prinzipiell für jeden verfügbar, in der Praxis allerdings schwer ausfindig zu machen ist: Untertitel.
 
 ## Anwendung
-Um die Erweiterung zu nutzen und sich die Untertitel-Texte anzeigen zu lassen, geht man wie folgt vor:
-
 1. Erweiterung über den Chrome Web Store [installieren](https://chrome.google.com/webstore/detail/theken-texte/ppkijiiclgdligambidmbnonkphgpolk).
 2. Beitrag aus der ARD- oder ZDF-Mediathek auswählen, der mit **UT** gekennzeichnet ist. Sobald die Seite geladen ist, wird ein gelbes *Icon* ("Te") innerhalb der Adresszeile des Browsers, rechts angezeigt.
 3. Auf das Icon klicken. Plugin öffnet sich.
