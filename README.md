@@ -7,7 +7,7 @@ Um die Erweiterung für den Chrome-Browser zu nutzen und sich die Untertitel-Tex
 2. Beitrag aus der ARD- oder ZDR-Mediathek auswählen, der mit **UT** gekennzeichnet ist. Sobald die Seite geladen ist, wird ein gelbes *Icon* ("Te") innerhalb der Adresszeile des Browser, rechts angezeigt.
 3. Auf das Icon klicken. Plugin öffnet sich.
 
-### Funktionen
+## Funktionen
 * Führt die Untertitel zusammen und versucht, Sprecher-Rollen zuzuordnen. Die **Sprechernamen können editiert** werden: auf Sprechername klicken, Text bearbeiten und **ENTER** drücken (oder *ESC*, um den urpsünglichen Wert wiederherzustellen). Alle Sprechernamen mit der selben Position im Text werden automatisch übernommen.
 * Wandelt die Untertitel ins Untertitel-Format *SubRip* (.srt) um (noch beta).
 * Zeigt die ursprüngliche Untertitel-Datei an (*XML*).
