@@ -3,6 +3,7 @@ Chrome Browser-Erweiterung, die die Untertitel der ARD- und ZDF Mediatheken im G
 
 ## Anwendung
 Um die Erweiterung für den Chrome-Browser zu nutzen und sich die Untertitel-Texte anzeigen zu lassen, geht man wie folgt vor:
+
 1. Erweiterung über den Chrome Web Store [installieren](https://chrome.google.com/webstore/detail/theken-texte/ppkijiiclgdligambidmbnonkphgpolk).
 2. Beitrag aus der ARD- oder ZDR-Mediathek auswählen, der mit **UT** gekennzeichnet ist. Sobald die Seite geladen ist, wird ein gelbes *Icon* ("Te") innerhalb der Adresszeile des Browser, rechts angezeigt.
 3. Auf das Icon klicken. Plugin öffnet sich.
