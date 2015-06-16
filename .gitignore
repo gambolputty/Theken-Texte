@@ -1,2 +1,4 @@
 
-sass/style.scss
+*.scssc
+
+style.css.map
