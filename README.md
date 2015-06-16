@@ -1,7 +1,7 @@
 # Theken Texte
 Erweiterung für den Chrome-Browser, die die Untertitel-Scripte der ARD- und ZDF Mediatheken im Ganzen anzeigt, als Fließtext oder im Untertitel-Format (.srt & .xml) bereit stellt. Download im  [Chrome Web Store](https://chrome.google.com/webstore/detail/theken-texte/ppkijiiclgdligambidmbnonkphgpolk).
 
-Mit diesem Plugin wird nicht nur das Zitieren von Fernsehinhalten erleichtert. Auch der Zugriff auf eine Textressource wird vereinfacht, die prinzipiell für jeden verfügbar, in der Praxis allerdings schwer ausfindig zu machen ist: Untertitel.
+Mit diesem Plugin wird nicht nur das Zitieren von Fernsehinhalten erleichtert. Auch wird der Zugriff auf eine Textressource vereinfacht, die prinzipiell für jeden verfügbar, in der Praxis allerdings schwer ausfindig zu machen ist: Untertitel.
 
 ## Anwendung
 1. Erweiterung über den Chrome Web Store [installieren](https://chrome.google.com/webstore/detail/theken-texte/ppkijiiclgdligambidmbnonkphgpolk).
