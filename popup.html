@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="UTF-8">
+    	<title>Theken Texte</title>
+        <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    </head>
+    <body class="loading">
+        <div id="popup">
+            <div class="toolbar">
+                <div class="input_el">
+                    <input type="radio" name="radio_format" value="text" id="r_text" checked>
+                    <label for="r_text">Fließtext</label>
+                </div>
+                <div class="input_el">
+                    <input type="radio" name="radio_format" value="srt" id="r_srt">
+                    <label for="r_srt">.SRT</label>
+                </div>
+                <div class="input_el">
+                    <input type="radio" name="radio_format" value="xml" id="r_xml">
+                    <label for="r_xml">.XML</label>
+                </div>
+                <div class="input_el right">
+                    <div class="copy-msg"></div>
+                    <a id="copy-button" class="button" href="#" title="In die Zwischablage kopieren" data-target="text">
+                        <svg class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 128">
+                            <path d="M93.667,96.439H69.481V89.12h24.186V96.439z M93.657,82.92H69.481v-7.318h24.176V82.92z
+                                 M96.781,46.841H50.408v67.33H112V62.047L96.781,46.841z M102.242,104.414H60.166V56.599h29.296v11.059h12.78V104.414z
+                                 M41.728,95.916H25.636V31.271h14.718l6.078,6.099h20.309l6.159-6.099h13.967v7.764h9.879V21.553H82.849
+                                c-2.218,0-4.346-0.877-5.919-2.441l-5.311-5.284H41.127l-5.31,5.283c-1.573,1.564-3.701,2.442-5.919,2.442H16v84.243h25.728V95.916z
+                                "/>
+                        </svg>
+                    </a>
+                    <a id="newwindow-button" class="button" href="#" title="Im neuen Fenster öffnen">
+                        <svg class="icon" version="1.1" ixmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 128">
+                            <path d="M36.865,18v70.563h75.918V18H36.865z M100.942,76.722H48.707V40.97h52.236V76.722z M100.942,110V98.16 H27.057V40.859h-11.84V110H100.942z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <h1 id="title"></h1>
+            <div class="content">
+                <div class="text"></div>
+                <div class="srt" contenteditable="true"></div>
+                <div class="xml" contenteditable="true"></div>
+            </div>
+            <div class="source"></div>
+        </div>
+        <script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="popup.js"></script>
+    </body>
+</html>
