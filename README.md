@@ -5,7 +5,7 @@ Mit diesem Plugin wird nicht nur das Zitieren von Fernsehinhalten erleichtert. A
 
 ## Anwendung
 1. Erweiterung über den Chrome Web Store [installieren](https://chrome.google.com/webstore/detail/theken-texte/ppkijiiclgdligambidmbnonkphgpolk).
-2. Beitrag aus der ARD- oder ZDF-Mediathek auswählen, der mit **UT** gekennzeichnet ist. Sobald die Seite geladen ist, wird ein gelbes *Icon* ("Te") innerhalb der Adresszeile des Browsers, rechts angezeigt.
+2. Beitrag aus der ARD- oder ZDF-Mediathek auswählen, der mit **UT** gekennzeichnet ist. Wenn ein Button mit der Aufschrift "UT" im Player anklickbar ist, sind für diesen Beitrag Untertitel verfügbar. Sobald die Seite geladen ist, wird ein gelbes Icon ("Te") innerhalb der Adresszeile des Browsers, rechts angezeigt.
 3. Auf das Icon klicken. Plugin öffnet sich.
 
 ## Funktionen
