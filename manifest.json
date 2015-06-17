@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Theken Texte",
-	"version": "0.7.8",
+	"version": "0.7.9",
 
 	"description": "Zeigt die Untertitel der ARD- und ZDF Mediatheken im Ganzen an, stellt sie als Fließtext oder im SRT- und XML-Format bereit.",
 	"icons": {
