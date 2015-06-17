@@ -1,8 +1,13 @@
-
 var DEBUG = false;
 if (!DEBUG) {
 	console.log = function() {}
 }
+
+
+var ext_at_tabId = null;
+var ard_meta = null;
+var ard_config = null;
+var zdf_meta = null;
 
 
 function initExtension(platform_name, subt_url, video_meta, tabId){
@@ -17,6 +22,7 @@ function initExtension(platform_name, subt_url, video_meta, tabId){
 
     // show plugin icon (page action);
     chrome.pageAction.show(tabId);
+    ext_at_tabId = tabId;
 
     // add popup listener
     chrome.runtime.onMessage.addListener(function(msg, sender, response) {
@@ -28,35 +34,8 @@ function initExtension(platform_name, subt_url, video_meta, tabId){
 	// }
 }
 
-var ard_meta = null;
-var ard_config = null;
-var zdf_meta = null;
 function webRequestListener(response){
 
-	console.log("onHeadersReceived");
-
-    var match_ard_url = response.url.match(/(ardmediathek|ard|tagesschau|daserste)\.de\/play\/(media|sola)\/\d{4,}.*/i);
-    var match_zdf_url = response.url.match(/zdf\.de\/ZDFmediathek\/xmlservice\/web\/(beitragsDetails).*/i);
-
-     // ARD
-    if (match_ard_url !== null) {
-		switch(match_ard_url[2]) {
-		    case "sola":
-				ard_meta = response.url;
-        		console.log("ARD Sola url found!");
-		    	break;
-	   	    case "media":
-	   			ard_config = response.url;
-	   			console.log("ARD Media url found!");
-	   	    	break;
-		}
-    // ZDF
-    }else if (match_zdf_url !== null) {
-    	if (match_zdf_url[1] == "beitragsDetails") {
-			zdf_meta = response.url;
-    		console.log("ZDF Meta url found!");
-    	}
-    }
 
 	// prepare to execute extension; check if vars set
 
@@ -104,6 +83,32 @@ function webRequestListener(response){
 		chrome.webRequest.onHeadersReceived.removeListener(webRequestListener);
         return;
 	}
+
+	// if vars not set, parse url
+
+    var match_ard_url = response.url.match(/(ardmediathek|ard|tagesschau|daserste)\.de\/play\/(media|sola)\/\d{4,}.*/i);
+    var match_zdf_url = response.url.match(/zdf\.de\/ZDFmediathek\/xmlservice\/web\/(beitragsDetails).*/i);
+
+     // ARD
+    if (match_ard_url !== null) {
+		switch(match_ard_url[2]) {
+		    case "sola":
+				ard_meta = response.url;
+        		console.log("ARD Sola url found!");
+		    	break;
+	   	    case "media":
+	   			ard_config = response.url;
+	   			console.log("ARD Media url found!");
+	   	    	break;
+		}
+    // ZDF
+    }else if (match_zdf_url !== null) {
+    	if (match_zdf_url[1] == "beitragsDetails") {
+			zdf_meta = response.url;
+    		console.log("ZDF Meta url found!");
+    	}
+    }
+
 }
 
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab){
@@ -111,8 +116,12 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab){
 	console.log("onUpdated");
 
 	// hide plugin icon
-	// TODO: Unchecked runtime.lastError while running pageAction.hide: No tab with id: 7633.
-	chrome.pageAction.hide(tabId);
+
+	if (ext_at_tabId === tabId) {
+		chrome.pageAction.hide(tabId);
+		ext_at_tabId = null;
+		console.log("icon removed");
+	}
 
 	chrome.webRequest.onHeadersReceived.addListener(webRequestListener, {
 		urls: ["*://*.ardmediathek.de/*", "*://*.ard.de/*", "*://*.tagesschau.de/*", "*://*.daserste.de/*",
