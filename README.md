@@ -23,3 +23,8 @@ Mit diesem Plugin wird nicht nur das Zitieren von Fernsehinhalten erleichtert. A
 
 ![](http://ggor.de/wp-content/uploads/2015/06/open_small.gif)
 ![](http://ggor.de/wp-content/uploads/2015/06/changename_small.gif)
+
+Offizieller Blogpost zum Plugin auf [0x0a](http://0x0a.li/de/browser-erweiterung-theken-texte/).
+Projekt-Seite auf [ggor.de](http://ggor.de/project/theken-texte/)
+
+Ich @ [Twitter](https://twitter.com/greg00r), [facebook](https://www.facebook.com/gregor.weichbrodt) und [ggor.de](http://ggor.de)
