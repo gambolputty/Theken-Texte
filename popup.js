@@ -272,7 +272,9 @@ function buildData(data) {
 
 	var subtitle_url = data.subtitle_url;
 	if (data.platform == "ard") {
-		subtitle_url = "http://www.ardmediathek.de" + subtitle_url;
+		if (!/ardmediathek\.de/g.test(subtitle_url)) {
+			subtitle_url = "http://www.ardmediathek.de" + subtitle_url;
+		}
 	}
 
 	var meta_url = data.meta_url;
