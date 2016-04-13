@@ -18,7 +18,7 @@ function initExtension(platform_name, subt_url, video_meta, tabId){
     	platform: platform_name,
     	subtitle_url: subt_url,
     	meta_url: video_meta
-    }
+    };
 
     // show plugin icon (page action);
     chrome.pageAction.show(tabId);
@@ -56,7 +56,7 @@ function webRequestListener(response){
 		    ard_meta = null;
 		    ard_config = null;
 		  }
-		}
+		};
 		xhr.send();
 		chrome.webRequest.onHeadersReceived.removeListener(webRequestListener);
         return;
@@ -78,7 +78,7 @@ function webRequestListener(response){
 		    }
 		    zdf_meta = null;
 		  }
-		}
+		};
 		xhr.send();
 		chrome.webRequest.onHeadersReceived.removeListener(webRequestListener);
         return;
@@ -117,11 +117,11 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab){
 
 	// hide plugin icon
 
-	if (ext_at_tabId === tabId) {
-		chrome.pageAction.hide(tabId);
-		ext_at_tabId = null;
-		console.log("icon removed");
-	}
+	// if (ext_at_tabId !== tabId) {
+	// 	chrome.pageAction.hide(tabId);
+	// 	ext_at_tabId = null;
+	// 	console.log("icon removed");
+	// }
 
 	chrome.webRequest.onHeadersReceived.addListener(webRequestListener, {
 		urls: ["*://*.ardmediathek.de/*", "*://*.ard.de/*", "*://*.tagesschau.de/*", "*://*.daserste.de/*",
