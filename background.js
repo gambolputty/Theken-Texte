@@ -1,6 +1,6 @@
 var DEBUG = false;
 if (!DEBUG) {
-	console.log = function() {}
+	console.log = function() {};
 }
 
 
