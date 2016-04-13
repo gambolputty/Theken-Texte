@@ -18,7 +18,7 @@ Mit diesem Plugin wird nicht nur das Zitieren von Fernsehinhalten erleichtert. A
 ## Hinweise:
 * Funktioniert vorerst nur unter [www.ardmediathek.de](http://www.ardmediathek.de) und [mediathek.zdf.de](http://mediathek.zdf.de). Gegebenenfalls das Video dort aufsuchen.
 * Nicht immer können alle Sprecher im Beitrag ausfindig gemacht werden. So haben einige Videos z.B. nur einen Sprecher. Andere Untertitel sind nicht korrekt gesetzt.
-* Die Umwandlung ins *SRT-Format* ist noch beta. Der Timecode muss für manche Beiträge noch umgewandelt werden.
+* Die Umwandlung ins *SRT-Format* ist noch beta. Der Timecode wird für manche Beiträge noch nicht korrekt umgewandelt.
 * Die Copyright-Hinweise der Sendeanstalten werden ober- oder unterhalb der Texte angezeigt.
 
 ![](http://ggor.de/wp-content/uploads/2015/06/open_small.gif)

@@ -117,11 +117,11 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab){
 
 	// hide plugin icon
 
-	// if (ext_at_tabId !== tabId) {
-	// 	chrome.pageAction.hide(tabId);
-	// 	ext_at_tabId = null;
-	// 	console.log("icon removed");
-	// }
+	if (ext_at_tabId !== tabId) {
+		chrome.pageAction.hide(tabId);
+		ext_at_tabId = null;
+		console.log("icon removed");
+	}
 
 	chrome.webRequest.onHeadersReceived.addListener(webRequestListener, {
 		urls: ["*://*.ardmediathek.de/*", "*://*.ard.de/*", "*://*.tagesschau.de/*", "*://*.daserste.de/*",
