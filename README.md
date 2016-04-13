@@ -5,8 +5,8 @@ Mit diesem Plugin wird nicht nur das Zitieren von Fernsehinhalten erleichtert. A
 
 ## Anwendung
 1. Erweiterung über den Chrome Web Store [installieren](https://chrome.google.com/webstore/detail/theken-texte/ppkijiiclgdligambidmbnonkphgpolk).
-2. Beitrag aus der ARD- oder ZDF-Mediathek auswählen, der mit **UT** gekennzeichnet ist. Wenn ein Button mit der Aufschrift "UT" im Player anklickbar ist, sind für diesen Beitrag Untertitel verfügbar. Sobald die Seite geladen ist, wird ein gelbes Icon ("Te") innerhalb der Adresszeile des Browsers, rechts angezeigt.
-3. Auf das Icon klicken. Plugin öffnet sich.
+2. Beitrag aus der ARD- oder ZDF-Mediathek auswählen, der mit **UT** gekennzeichnet ist. Sobald Untertitel für einen Beitrag verfügbar sind, wird das "Te"-Icon neben der Addresszeile aktiviert und leuchet gelb.
+3. Auf das Icon klicken. Popup öffnet sich.
 
 ## Funktionen
 * Rekonstruiert das gesamte Untertitel-Script im Browser und teilt Sprecher-Rollen zu. Die **Sprechernamen können editiert** werden: auf Sprechername klicken, Text bearbeiten und **ENTER** drücken (oder **ESC**, um den urpsünglichen Wert wiederherzustellen). Alle Sprechernamen mit der selben Position im Text werden automatisch übernommen.
@@ -16,8 +16,8 @@ Mit diesem Plugin wird nicht nur das Zitieren von Fernsehinhalten erleichtert. A
 * Öffnet die aktuelle Popup-Ansicht in einem neuen Fenster.
 
 ## Hinweise:
-* Funktioniert vorerst nur auf den Hauptseiten der Mediatheken, also unter [www.ardmediathek.de](http://www.ardmediathek.de) und [mediathek.zdf.de](http://mediathek.zdf.de) – nicht auf den Seiten der einzelnen Sendungen oder in Mediatheken verwandter Sender (z.B. „RBB Mediathek“, „MDR Mediathek“ etc.) Das Video ggf. auf der Hauptseite der Mediathek suchen!
-* Nicht immer sind die Untertitel der Mediatheken so gesetzt, dass alle Sprecher im Beitrag ausfindig gemacht werden können. So haben einige Videos z.B. nur einen Sprecher. Manche Untertitel sind fehlerhaft gesetzt, sodass die Sprecher(-Farben) durcheinander sind.
+* Funktioniert vorerst nur unter [www.ardmediathek.de](http://www.ardmediathek.de) und [mediathek.zdf.de](http://mediathek.zdf.de). Gegebenenfalls das Video dort aufsuchen.
+* Nicht immer können alle Sprecher im Beitrag ausfindig gemacht werden. So haben einige Videos z.B. nur einen Sprecher. Andere Untertitel sind nicht korrekt gesetzt.
 * Die Umwandlung ins *SRT-Format* ist noch beta. Der Timecode muss für manche Beiträge noch umgewandelt werden.
 * Die Copyright-Hinweise der Sendeanstalten werden ober- oder unterhalb der Texte angezeigt.
 
@@ -27,4 +27,4 @@ Mit diesem Plugin wird nicht nur das Zitieren von Fernsehinhalten erleichtert. A
 Offizieller Blogpost zum Plugin auf [0x0a](http://0x0a.li/de/browser-erweiterung-theken-texte/).
 Projekt-Seite auf [ggor.de](http://ggor.de/project/theken-texte/)
 
-Ich @ [Twitter](https://twitter.com/greg00r), [facebook](https://www.facebook.com/gregor.weichbrodt) und [ggor.de](http://ggor.de)
+Kontakt: [Twitter](https://twitter.com/greg00r), [facebook](https://www.facebook.com/gregor.weichbrodt) und [ggor.de](http://ggor.de)
