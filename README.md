@@ -3,7 +3,7 @@ Erweiterung für den Chrome-Browser, die die Untertitel-Scripte der ARD- und ZDF
 
 Mit diesem Plugin wird nicht nur das Zitieren von Fernsehinhalten erleichtert. Auch wird der Zugriff auf eine Textressource vereinfacht, die prinzipiell für jeden verfügbar, in der Praxis allerdings schwer ausfindig zu machen ist: Untertitel.
 
-# Update
+# Update Oktober 2016: derzeit unbenutzbar
 Das Plugin funktioniert derzeit nicht, da der Code der Webseiten von ARD & ZDF sich geändert hat. Da ich das Plugin in meiner Freizeit programmiere, kann ich nicht auf jede Änderungen reagieren. Der Plugin-Code bleibt aber auf Github bestehen und einer Weiterentwicklung durch andere Parteien steht nichts im Wege.
 
 ## Anwendung
